@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Dictionary App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="appContainer">
+        <h1 class="appTitle">Simple Dictionary</h1>
+        <div class="searchSection">
+            <input type="text" id="wordInput" placeholder="Start typing a word..." class="searchInput" autocomplete="off">
+            <div id="hintList" class="hintList"></div>
+            <button id="searchButton" class="searchButton">Search</button>
+        </div>
+        <div class="resultSection">
+            <h2 id="wordTitle" class="wordTitle"></h2>
+            <div id="wordDetails" class="wordDetails"></div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

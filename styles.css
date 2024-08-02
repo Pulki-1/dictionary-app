@@ -1,0 +1,124 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.appContainer {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.appTitle {
+    color: #2d3436;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.searchSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.searchInput {
+    border: 2px solid #0984e3;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.searchInput:focus {
+    border-color: #6c5ce7;
+}
+
+.hintList {
+    background-color: #dfe6e9;
+    border-radius: 8px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    max-width: 350px;
+    text-align: left;
+    display: none;
+    z-index: 10;
+}
+
+.hintItem {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hintItem:hover {
+    background-color: #b2bec3;
+}
+
+.searchButton {
+    background-color: #0984e3;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.searchButton:hover {
+    background-color: #74b9ff;
+}
+
+.resultSection {
+    margin-top: 20px;
+}
+
+.wordTitle {
+    font-size: 1.8rem;
+    color: #6c5ce7;
+    margin-bottom: 20px;
+}
+
+.wordDetails {
+    font-size: 1rem;
+    color: #2d3436;
+    text-align: left;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.wordDefinition {
+    margin-bottom: 15px;
+}
+
+.definitionText {
+    margin-bottom: 5px;
+}
+
+.exampleText {
+    font-style: italic;
+    color: #636e72;
+}
+
+.partOfSpeech {
+    font-weight: bold;
+    color: #0984e3;
+    margin-bottom: 8px;
+}
